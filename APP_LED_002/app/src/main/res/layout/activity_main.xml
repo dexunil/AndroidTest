@@ -9,23 +9,32 @@
     <TextView android:text="hehei" android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
+        android:id="@+id/button_id"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="botton"/>
+        android:text="ALL ON"/>
     <CheckBox
+        android:id="@+id/checkbox1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="LED1"/>
+        android:text="LED1"
+        android:onClick="onCheckboxClicked"/>
     <CheckBox
+        android:id="@+id/checkbox2"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="LED2"/>
+        android:text="LED2"
+        android:onClick="onCheckboxClicked"/>
     <CheckBox
+        android:id="@+id/checkbox3"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="LED3"/>
+        android:text="LED3"
+        android:onClick="onCheckboxClicked"/>
     <CheckBox
+        android:id="@+id/checkbox4"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="LED4"/>
+        android:text="LED4"
+        android:onClick="onCheckboxClicked"/>
 </LinearLayout>
